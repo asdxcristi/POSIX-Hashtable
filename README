@@ -1,0 +1,22 @@
+Tema1 SO,Bucur Ionut-Cristian,333CA
+
+Flow:
+	-comenzile sunt citite intr-un buffer si pasate la resolve_command
+	-resolve_command verifica tipul comenzii(implicit daca este valid)
+	si apeleaza functia handler corespunzatoare, careia ii paseaza si
+	argumentele	primite de la input
+	-functia handler parseaza si verifica argumentele si apeleaza functia 
+	corespunzatoare	hash_table-ului
+	-functia corespunzatoare hash_table-ului face efectiv comanda ceruta
+	
+TL;DR: INPUT -> RESOLVE_COMMAND -> HANDLER -> HASH_API
+
+Hashtable 
+-implementat folosind o Lista dublu inlantuita pe post de container
+-are implementate functii precum: add, find, remove, "constructor",
+"destructor", print si alte functii ajutatoare
+
+Link repo gitlab: 
+https://gitlab.cs.pub.ro/ionut.bucur1009/l3-so-assignments/tree/master/1-multi
+
+
